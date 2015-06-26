@@ -1,12 +1,6 @@
 
-Angular Grid
+ag-Grid
 ==============
-
-[![Join the chat at https://gitter.im/ceolter/angular-grid](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ceolter/angular-grid?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-Angular Grid is the first high performance and feature rich data grid for AngularJS.
-
-Light weight, minimal footprint, no external dependencies.
 
 #### Install with Bower
 ```sh
@@ -18,25 +12,11 @@ $ bower install ag-grid
 $ npm install angular-grid
 ```
 
-Features
+See the [www.angulargrid.com](http://www.angulargrid.com) for overview and documentation.
+
+
+Building
 ==============
-
-See the website for overview and documentation.
-
-[www.angulargrid.com](http://www.angulargrid.com)
-
-Releases
---------------
-
-Releases are located in dist
-
-
-Contribute
-==============
-
-If you are a very strong developer and wish to contribute, please get in touch.
-
-Before contributing, please review our contribution guidelines [here](https://raw.githubusercontent.com/ceolter/angular-grid/master/CONTRIBUTING.md).
 
 To build:
 - `npm install`
@@ -44,9 +24,32 @@ To build:
 - `bower install`
 - `gulp` or `gulp guild` or `gulp watch`
 
-Then if contributing:
-- Make your changes in `src/` files only!
-- Provide documentation
+If you are doing a Pull Request:
+- Make your code changes in `src/` files only, don't update dist files
+- Make your doc changes in `docs/`, a feature is not complete unless it's documented
 - Do manual end to end testing off all examples in documentation
 - Discard all changes to `dist/`
 - Create Pull Request
+
+Asking Questions
+==============
+
+Please do not use GitHub issues to ask questions. Ask questions on the
+[website forum](http://www.angulargrid.com/forum).
+
+
+Contributing
+==============
+
+I am not looking for contributors for this project. If you have ideas, feel free to
+get in touch and let me know. Or if you want to suggest something, feel free to
+create a pull request with your ideas.
+
+My reason for not looking for contributors is that this grid is my hobby,
+something I work on in my spare time and enjoy. The design is something of a passion,
+and I'm bringing the grid into a particular direction. To take on contributors
+would require overhead of organisation, as well as agreeing direction (both
+technical implementation and functional requirements).
+
+If you would like to help, then where I actually do need help is in answering questions
+on the forum and spreading the word to grow the user community.
