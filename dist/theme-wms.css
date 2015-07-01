@@ -132,3 +132,7 @@
 	overflow-x:inherit;
 	overflow-y:hidden; 
 }
+
+#centerRow{
+	height: 100% !important;
+}
