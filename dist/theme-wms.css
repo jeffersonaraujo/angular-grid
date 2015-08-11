@@ -128,11 +128,11 @@
   width: 300px;
 }
 
-.ag-wms .ag-body-viewport{
-	overflow-x:inherit;
-	overflow-y:hidden; 
-}
+/* .ag-wms .ag-body-viewport{ */
+/* 	overflow-x:inherit; */
+/* 	overflow-y:hidden;  */
+/* } */
 
 #centerRow{
-	height: 100% !important;
+	height: 655px !important;
 }
